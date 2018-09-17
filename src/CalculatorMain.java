@@ -6,8 +6,10 @@ public class CalculatorMain
 	{
 		//This is how we create an object
 		//new --> java keyword which creates an object
-		Calculator calc = new Calculator();
-		System.out.println(calc.add(2,6));
+		Calculator awesome = new Calculator();
+		System.out.println(awesome.add(2,6));
+		System.out.println(awesome.subt(7,3));
+		System.out.println("The difference between 7 and 3 is "+awesome.subt(7,3));
 
 	}
 
