@@ -8,8 +8,10 @@ public class CalculatorMain
 
 	public static void main(String[] args) 
 	{
-		//This is how we create an object
-		//new --> java keyword which creates an object
+		//new: java keyword which creates an object
+		//Calculator is the data type
+		//awesome is the variable name
+		//Calculator is the object
 		
 		Calculator awesome = new Calculator();
 		System.out.println(awesome.add(2,6));
