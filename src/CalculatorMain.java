@@ -14,7 +14,8 @@ public class CalculatorMain
 		Calculator awesome = new Calculator();
 		System.out.println(awesome.add(2,6));
 		System.out.println(awesome.subt(7,3));
-		System.out.println("The difference between 7 and 3 is "+awesome.subt(7,3));
+		System.out.println("The difference between 7 and 3 is "
+		+awesome.subt(7,3));
 
 	}
 
